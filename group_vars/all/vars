@@ -1,0 +1,10 @@
+---
+instance_type: t2.micro
+security_group: web-DMZ-SG
+image: ami-6057e21a
+region: us-east-1 
+count: 1
+key_name: JVirginia
+remote_user: ec2-user
+IamProfile: s3
+

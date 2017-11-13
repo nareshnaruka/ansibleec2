@@ -1,0 +1,13 @@
+---
+# This playbook deploys the whole application stack in this site.
+
+- name: launch aws servers
+  hosts: localhost
+  connection: local
+  become: False
+  gather_facts: False
+  tags: provisioning
+  
+  roles:
+  - launch
+
